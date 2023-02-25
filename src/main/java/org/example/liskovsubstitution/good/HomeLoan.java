@@ -1,6 +1,6 @@
 package org.example.liskovsubstitution.good;
 
-public class HomeLoan implements LoanPayment, SecureLoanPayment {
+public class HomeLoan implements SecureLoanPayment {
     @Override
     public void doPayment() {
 
